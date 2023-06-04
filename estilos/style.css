@@ -12,7 +12,7 @@ html, body{
 }
 
 body{
-    background: url('../imagens/fundo-madeira.jpg')
+    background: url('../imagens/podcast.jpg')
     no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
@@ -22,6 +22,11 @@ main{
     height: 100vh;
     position: relative;
   
+}
+.logo{
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 60px;
 }
 
 section#telefone{
@@ -33,6 +38,7 @@ section#telefone{
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+    border-radius: 50px;
 }
 
 iframe#tela{
@@ -42,6 +48,15 @@ iframe#tela{
     width: 267px;
     height: 471px;
 }
+.error{
+    color: rgb(240, 77, 77);
+    width: 200px;
+    text-align: center;
+    margin: 15px;
+    font-style: italic;
+    
+}
+
 section#redes-sociais{
     text-align: right;
 }
